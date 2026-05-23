@@ -1,7 +1,7 @@
 import React from "react";
 import { Link } from "wouter";
 import { motion } from "framer-motion";
-import { ArrowRight, Droplets, Building2, HardHat } from "lucide-react";
+import { ArrowRight } from "lucide-react";
 
 export default function Home() {
   const containerVariants = {
@@ -91,43 +91,119 @@ export default function Home() {
       </section>
 
       {/* Services Section */}
-      <section className="py-20 bg-gray-50 border-t border-gray-100">
+      <section className="py-20 bg-[#F5F7FA] border-t border-gray-100">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="text-center mb-16">
-            <h2 className="text-3xl md:text-4xl font-bold text-secondary mb-4 font-montserrat">Our Core Services</h2>
-            <div className="h-1 w-20 bg-primary mx-auto rounded-full"></div>
+          <div className="text-center mb-14">
+            <p className="text-primary font-semibold uppercase tracking-widest text-sm mb-3">What We Deliver</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-secondary font-montserrat mb-4">Our Core Services</h2>
+            <div className="flex items-center justify-center gap-2">
+              <div className="h-0.5 w-10 bg-primary/30 rounded-full" />
+              <div className="h-1 w-6 bg-primary rounded-full" />
+              <div className="h-0.5 w-10 bg-primary/30 rounded-full" />
+            </div>
           </div>
-          
-          <motion.div 
-            className="grid grid-cols-1 md:grid-cols-3 gap-8"
+
+          <motion.div
+            className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6"
             initial="hidden"
             whileInView="visible"
-            viewport={{ once: true, margin: "-100px" }}
+            viewport={{ once: true, margin: "-80px" }}
             variants={containerVariants}
           >
             {[
-              { icon: <Droplets size={32} />, title: "Water Supply Design", desc: "Designing efficient water distribution networks for urban and rural communities." },
-              { icon: <Building2 size={32} />, title: "Wastewater Treatment", desc: "Developing advanced wastewater treatment plants and processes." },
-              { icon: <HardHat size={32} />, title: "Structural & MEP", desc: "Comprehensive design across architecture, structure, and MEP disciplines." }
+              {
+                num: "01",
+                title: "Water Supply System",
+                desc: "Designing water distribution networks, transmission mains and reservoirs for urban and rural communities.",
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
+                    <defs><linearGradient id="hg1" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#00BFFF"/><stop offset="100%" stopColor="#003087"/></linearGradient></defs>
+                    <path d="M32 6C32 6 14 24 14 38a18 18 0 0 0 36 0C50 24 32 6 32 6z" fill="url(#hg1)" opacity="0.15"/>
+                    <path d="M32 10C32 10 17 26.5 17 38a15 15 0 0 0 30 0C47 26.5 32 10 32 10z" stroke="url(#hg1)" strokeWidth="2.2" fill="none" strokeLinecap="round"/>
+                    <path d="M24 42c0-4.4 4-10 8-14 4 4 8 9.6 8 14" stroke="#00A651" strokeWidth="2" strokeLinecap="round" fill="none"/>
+                    <circle cx="32" cy="44" r="3" fill="#00A651"/>
+                  </svg>
+                ),
+              },
+              {
+                num: "02",
+                title: "Sewerage & Drainage",
+                desc: "Planning comprehensive sewage networks and storm water drainage systems to manage urban runoff.",
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
+                    <defs><linearGradient id="hg2" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#00A651"/><stop offset="100%" stopColor="#003087"/></linearGradient></defs>
+                    <rect x="10" y="28" width="44" height="8" rx="4" fill="url(#hg2)" opacity="0.15"/>
+                    <rect x="10" y="28" width="44" height="8" rx="4" stroke="url(#hg2)" strokeWidth="2"/>
+                    <line x1="20" y1="36" x2="20" y2="52" stroke="#00A651" strokeWidth="2.5" strokeLinecap="round"/>
+                    <line x1="32" y1="36" x2="32" y2="52" stroke="#00A651" strokeWidth="2.5" strokeLinecap="round"/>
+                    <line x1="44" y1="36" x2="44" y2="52" stroke="#00A651" strokeWidth="2.5" strokeLinecap="round"/>
+                    <path d="M14 28V20a4 4 0 0 1 4-4h28a4 4 0 0 1 4 4v8" stroke="#003087" strokeWidth="2" strokeLinecap="round"/>
+                    <path d="M26 16V10M38 16V10" stroke="#00BFFF" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="26" cy="9" r="2" fill="#00BFFF"/><circle cx="38" cy="9" r="2" fill="#00BFFF"/>
+                  </svg>
+                ),
+              },
+              {
+                num: "03",
+                title: "Fisheries & Aquaculture",
+                desc: "Full-spectrum aquaculture infrastructure — hatcheries, fish farms, RAS, aquaponics, in partnership with AkuaMaks.",
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
+                    <defs><linearGradient id="hg3" x1="0" y1="0" x2="1" y2="1"><stop offset="0%" stopColor="#00BFFF"/><stop offset="100%" stopColor="#00A651"/></linearGradient></defs>
+                    <path d="M8 32c6-10 14-16 24-16s18 6 24 16c-6 10-14 16-24 16S14 42 8 32z" fill="url(#hg3)" opacity="0.12" stroke="url(#hg3)" strokeWidth="2"/>
+                    <path d="M22 32c0-5 3.6-9 8-9s8 4 8 9-3.6 9-8 9-8-4-8-9z" stroke="#003087" strokeWidth="2" fill="none"/>
+                    <circle cx="35" cy="29" r="2" fill="#003087"/>
+                    <path d="M50 28l6-4-2 8 2 8-6-4" fill="#00A651" opacity="0.7"/>
+                    <path d="M14 28 8 24l2 8-2 8 6-4" fill="#00A651" opacity="0.7"/>
+                  </svg>
+                ),
+              },
+              {
+                num: "04",
+                title: "Wastewater Treatment",
+                desc: "Engineering safe drinking water treatment facilities and advanced wastewater treatment plants.",
+                icon: (
+                  <svg viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-10 h-10">
+                    <defs><linearGradient id="hg4" x1="0" y1="0" x2="0" y2="1"><stop offset="0%" stopColor="#00BFFF"/><stop offset="100%" stopColor="#00A651"/></linearGradient></defs>
+                    <rect x="8" y="36" width="48" height="16" rx="3" fill="url(#hg4)" opacity="0.12" stroke="url(#hg4)" strokeWidth="2"/>
+                    <path d="M16 36V26a4 4 0 0 1 4-4h24a4 4 0 0 1 4 4v10" stroke="#003087" strokeWidth="2" strokeLinecap="round"/>
+                    <circle cx="24" cy="36" r="5" stroke="#00A651" strokeWidth="2" fill="none"/>
+                    <circle cx="40" cy="36" r="5" stroke="#00A651" strokeWidth="2" fill="none"/>
+                    <path d="M29 36h6" stroke="#00BFFF" strokeWidth="2" strokeLinecap="round"/>
+                    <path d="M32 10v10M28 14l4-4 4 4" stroke="#00BFFF" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
+                  </svg>
+                ),
+              },
             ].map((service, idx) => (
-              <motion.div 
-                key={idx} 
+              <motion.div
+                key={idx}
                 variants={itemVariants}
-                className="bg-white p-8 rounded-lg shadow-sm border border-gray-100 hover:shadow-md hover:border-l-4 hover:border-l-primary transition-all group"
+                className="relative bg-white rounded-2xl shadow-sm border border-gray-100 p-7 flex flex-col gap-4 group hover:shadow-xl hover:-translate-y-1 transition-all duration-300 overflow-hidden"
               >
-                <div className="text-primary mb-6 group-hover:scale-110 transition-transform">{service.icon}</div>
-                <h3 className="text-xl font-bold text-secondary mb-3">{service.title}</h3>
-                <p className="text-gray-600 mb-6">{service.desc}</p>
-                <Link href="/services" className="text-primary font-medium flex items-center gap-2 hover:gap-3 transition-all">
-                  Learn more <ArrowRight size={16} />
+                <div className="absolute top-0 right-0 w-20 h-20 bg-gradient-to-bl from-primary/8 to-transparent rounded-bl-full pointer-events-none" />
+                <span className="absolute top-5 right-6 text-4xl font-black text-gray-100 select-none leading-none font-montserrat group-hover:text-primary/10 transition-colors">
+                  {service.num}
+                </span>
+                <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-[#F0F7FF] to-[#E6F9F0] flex items-center justify-center shrink-0 group-hover:scale-105 transition-transform duration-300">
+                  {service.icon}
+                </div>
+                <div>
+                  <h3 className="text-base font-bold text-secondary font-montserrat mb-2 leading-snug group-hover:text-primary transition-colors duration-300">
+                    {service.title}
+                  </h3>
+                  <p className="text-gray-500 text-sm leading-relaxed">{service.desc}</p>
+                </div>
+                <Link href="/services" className="text-primary font-semibold flex items-center gap-1.5 text-sm mt-auto hover:gap-3 transition-all">
+                  Learn more <ArrowRight size={14} />
                 </Link>
+                <div className="absolute bottom-0 left-0 right-0 h-0.5 bg-gradient-to-r from-primary to-[#00BFFF] scale-x-0 group-hover:scale-x-100 transition-transform duration-300 origin-left" />
               </motion.div>
             ))}
           </motion.div>
-          
+
           <div className="text-center mt-12">
-            <Link href="/services" className="inline-block border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-6 py-3 rounded-md font-medium transition-colors">
-              View All 10 Services
+            <Link href="/services" className="inline-block border-2 border-secondary text-secondary hover:bg-secondary hover:text-white px-8 py-3 rounded-md font-semibold transition-colors">
+              View All Services
             </Link>
           </div>
         </div>
