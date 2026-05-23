@@ -1,7 +1,7 @@
 import React from "react";
 import HeroSection from "@/components/HeroSection";
 import { motion } from "framer-motion";
-import { CheckCircle2, MapPin, Phone, Mail, Award, Clock } from "lucide-react";
+import { MapPin, Phone, Award, Clock } from "lucide-react";
 
 export default function About() {
   return (
@@ -94,9 +94,17 @@ export default function About() {
                 whileInView={{ opacity: 1, y: 0 }}
                 viewport={{ once: true }}
                 transition={{ duration: 0.5, delay: idx * 0.1 }}
-                className="bg-white/5 border border-white/10 p-8 rounded-lg hover:bg-white/10 transition-colors"
+                className="bg-white/5 border border-white/10 p-8 rounded-lg hover:bg-white/10 transition-colors group"
               >
-                <CheckCircle2 className="text-primary mb-6" size={36} />
+                <div className="mb-6 flex items-center gap-4">
+                  <div
+                    className="w-12 h-12 rounded-full flex items-center justify-center text-white font-bold text-lg font-montserrat flex-shrink-0"
+                    style={{ background: "linear-gradient(135deg, #00A651, #00BFFF)" }}
+                  >
+                    {String(idx + 1).padStart(2, "0")}
+                  </div>
+                  <div className="h-px flex-1 bg-white/20 group-hover:bg-white/40 transition-colors"></div>
+                </div>
                 <h3 className="text-xl font-bold mb-4 font-montserrat">{value.title}</h3>
                 <p className="text-gray-300 leading-relaxed">{value.desc}</p>
               </motion.div>
