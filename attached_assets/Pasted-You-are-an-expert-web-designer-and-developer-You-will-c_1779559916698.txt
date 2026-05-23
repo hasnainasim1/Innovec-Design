@@ -1,0 +1,107 @@
+You are an expert web designer and developer. You will create a complete, professional, modern website for "INNOVEC (Private) Limited" — an Engineering Consultancy firm.
+
+**STRICT RULES - FOLLOW EXACTLY:**
+- Use ONLY the content and information I provide below. Do not add, invent, or hallucinate anything.
+- Color Scheme: Main colors are Deep Navy Blue (#003087) and Vibrant Green (#00A651). Accent color: Light Blue (#00BFFF). Background: White (#FFFFFF) or light gray (#F5F7FA). Text: Dark navy or black.
+- Font: Headings = Montserrat (Bold), Body text = Inter or Roboto.
+- Style: Clean, premium, corporate, minimalist, professional engineering consultancy look. Lots of white space, big beautiful images, subtle animations on scroll and hover.
+- Make it fully responsive (works perfectly on mobile, tablet, and desktop).
+- Navigation Bar: Fixed at top. Left side: Logo "INNOVEC" with small green wave underneath. Menu items: Home, About Us, Services, Projects, Team, Contact. Right side: Green button "Get In Touch".
+
+---
+
+### EXACT CONTENT TO USE
+
+**Company Info:**
+- Full Name: INNOVEC (Private) Limited
+- Established: 2020
+- PEC: CONSULT/2700
+- Address: 6/4D Model Town, Lahore
+- Phone: 0321-4175330
+- Email: ceo.innovec@gmail.com
+
+**About Us Text:**
+INNOVEC (Private) Limited is a forward-looking engineering consultancy firm with a strong specialization in infrastructure development and wet utilities engineering, delivering sustainable and technically robust solutions across urban and rural sectors.
+
+**Services (List exactly these 10):**
+1. Water Supply Design
+2. Treatment of Drinking Water
+3. Sewerage System
+4. Wastewater Treatment
+5. Disposal Stations / Pumping Stations
+6. Storm Water Drainage System
+7. Internal and External Plumbing (including Fire Fighting)
+8. Solid Waste Management (including Landfill Design)
+9. Fisheries & Aquaculture
+10. Architectural, Structural, and MEP Services
+
+**Team Members (Use exactly):**
+1. Naqi Iqbal — CEO & COO  
+   MSc. Civil Engineer and water infrastructure specialist with 16+ years of experience leading major projects including the $550 million World Bank-funded Punjab Rural Sustainable Water Supply & Sanitation Project, Misali Gaon flagship project, Chilas City Sewerage Scheme, and fisheries infrastructure projects. Also worked on NEOM Trojena Village Project in Saudi Arabia.
+
+2. Ms. Sharmeen Naqi — Director & General Manager, HR & Administration  
+   M.Phil. in Educational Leadership and Management. Over a decade of experience in education, team leadership, quality management, and organizational development.
+
+3. Muhammad Iqbal Bhatti — Head of Fisheries Department  
+   Distinguished fisheries scientist with over three decades of service to the Government of Punjab. M.Sc. Zoology and Certificate in Aquaculture from University of Stirling, Scotland. Retired Director of Fisheries in 2005.
+
+4. Engr. Sajjad Ahmad — B.Sc. Civil Engineer, M.Sc. Structure, 16 Years Experience
+5. Engr. Obaid Ur Rehman — B.Sc. Civil Engineer, 14 Years Experience
+6. Engr. Hamza Saeed — B.Sc. Civil Engineer, M.Sc. Construction Management, 9 Years Experience
+
+**Projects (Use exactly these):**
+
+**Ongoing:**
+- Design of Water supply, Sewerage, Drainage, Irrigation and Fire fighting system for Presidency of State Security, Kingdom of Saudi Arabia, Riyadh.
+- Design of Sewerage system for Chillas City.
+- Design of Water supply, Sewerage, Drainage and Roads for Multan Division for Misal Gaon Project, PRMSC.
+- Design of Water supply system for Fort Munro, DG Khan.
+- Fisheries Infrastructure Projects.
+
+**Completed Projects:** (List all from previous messages — Water Supply schemes, Wastewater Treatment Plants, Internal Plumbing, Other Projects, and Fisheries projects).
+
+---
+
+### PAGE-BY-PAGE INSTRUCTIONS
+
+**1. HOME PAGE**
+- Hero Section: Full screen height. Background = beautiful photo of wastewater treatment plant at sunset. Dark overlay. Big centered text: "INNOVEC (Private) Limited" + "Engineering Sustainable Infrastructure Since 2020" + "Water • Wastewater • Fisheries & Aquaculture". Two big buttons: Green "Explore Services" and White outline "View Projects".
+- Below Hero: Short About Us paragraph.
+- Services Section: Title "Our Core Services". Grid of cards (3 per row on desktop).
+- Featured Projects: Title "Featured Projects". Show 4-6 project cards.
+- Team Teaser: Show 3 team members.
+- Final CTA section.
+
+**2. ABOUT US PAGE**
+- Hero with company name.
+- Full About Us text.
+- Company credentials (PEC, NTN, Year, Address).
+- Vision and Values.
+
+**3. SERVICES PAGE**
+- Hero: "Our Core Services"
+- Big grid showing all 10 services with icons and short descriptions.
+
+**4. PROJECTS PAGE**
+- Top filter buttons: All | Ongoing | Completed | Fisheries & Aquaculture
+- Grid of project cards. Each card has image, title, short description, and "Read More".
+
+**5. TEAM PAGE**
+- Hero: "Our Leadership Team"
+- Beautiful grid or cards showing all team members with their photos (use the three provided headshots for main leaders), full name, designation, and full bio.
+
+**6. CONTACT PAGE**
+- Contact form (Name, Email, Phone, Message, Service Interested).
+- Right side: Address, Phone, Email, and embedded Google Map for Lahore.
+
+---
+
+**DESIGN INSTRUCTIONS FOR EVERY PAGE:**
+- Use lots of high-quality professional images of water treatment plants, construction, aquaculture farms, etc.
+- All buttons: Green background with white text for primary actions.
+- Cards: White background, subtle shadow, green accent on hover.
+- Make it look expensive, trustworthy, and modern like top international engineering firms.
+- Add smooth scroll animations and hover effects.
+- Make sure mobile version looks excellent.
+
+Now generate the complete website with all 6 pages using the exact content and design instructions above.

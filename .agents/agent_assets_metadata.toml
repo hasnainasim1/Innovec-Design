@@ -1,0 +1,62 @@
+uploads = []
+outputs = []
+
+[[generated]]
+id = "cBMD17z1svk7nJpj3Q555"
+uri = "file://artifacts/innovec-website/public/images/hero-home.png"
+type = "image"
+title = "Water treatment plant at sunset"
+
+[[generated]]
+id = "ZTvhQs6a5zLEbf5PdLVM6"
+uri = "file://artifacts/innovec-website/public/images/hero-about.png"
+type = "image"
+title = "Workers with blueprints at site"
+
+[[generated]]
+id = "HFru58WnPay3FBqFIBV3z"
+uri = "file://artifacts/innovec-website/public/images/hero-services.png"
+type = "image"
+title = "Engineering pipes infrastructure"
+
+[[generated]]
+id = "MP8wPuepR8BZTJfvii8_p"
+uri = "file://artifacts/innovec-website/public/images/hero-projects.png"
+type = "image"
+title = "Aerial view civil engineering projects"
+
+[[generated]]
+id = "5MYcRCh1rvtJ0XSjPQGzO"
+uri = "file://artifacts/innovec-website/public/images/hero-contact.png"
+type = "image"
+title = "Modern office exterior Lahore"
+
+[[generated]]
+id = "YLrzdv4YU9FcIdVQjg2r5"
+uri = "file://artifacts/innovec-website/public/images/team-1.png"
+type = "image"
+title = "Male executive engineer portrait"
+
+[[generated]]
+id = "r95I5e4Z8GIFHm9tdoouf"
+uri = "file://artifacts/innovec-website/public/images/team-2.png"
+type = "image"
+title = "Female executive portrait"
+
+[[generated]]
+id = "tDH-sog4w3QxJQbRunijM"
+uri = "file://artifacts/innovec-website/public/images/team-3.png"
+type = "image"
+title = "Senior male scientist portrait"
+
+[[generated]]
+id = "x_C7ehO6j2nAwzsTIc2Uv"
+uri = "file://artifacts/innovec-website/public/images/team-4.png"
+type = "image"
+title = "Male engineer portrait"
+
+[[generated]]
+id = "VuFpkBYSC_F3XGgkjRazv"
+uri = "file://artifacts/innovec-website/public/images/team-5.png"
+type = "image"
+title = "Male engineer portrait"
