@@ -36,14 +36,6 @@ const projects = [
     image: null,
   },
   {
-    title: "Multan Division, Misal Gaon Project",
-    category: "Ongoing",
-    type: "Infrastructure",
-    location: "Multan Division",
-    desc: "Design of Water Supply, Sewerage, Drainage and Roads for PRMSC.",
-    image: null,
-  },
-  {
     title: "Fort Munro Water Supply",
     category: "Ongoing",
     type: "Water Supply",
@@ -52,7 +44,7 @@ const projects = [
     image: null,
   },
 
-  // NEW COMPLETED PROJECTS — listed first within completed
+  // COMPLETED PROJECTS
   {
     title: "Misali Gaon (Model Village) Project — Multan Division",
     category: "Completed",
@@ -63,7 +55,7 @@ const projects = [
     image: null,
   },
   {
-    title: "Water Supply & Drainage Systems — Multan",
+    title: "Design & Drainage System for Safia Homes Multan",
     category: "Completed",
     type: "Water Supply",
     location: "Multan",
@@ -72,7 +64,7 @@ const projects = [
     image: null,
   },
   {
-    title: "Water Supply & Road Network — Kasur",
+    title: "Design of Water Supply & Road Network for Safia Homes Kasur",
     category: "Completed",
     type: "Infrastructure",
     location: "Kasur",
@@ -108,37 +100,53 @@ const projects = [
     image: null,
   },
 
-  // EXISTING COMPLETED — WATER SUPPLY
+  // COMPLETED — WATER SUPPLY & SEWERAGE SCHEMES
   {
-    title: "Flood Affected Areas Water Supply",
+    title: "Water Supply, Sewerage & Drainage — Neom Trojena Base Camp",
     category: "Completed",
     type: "Water Supply",
-    location: "Dera Ghazi Khan",
-    desc: "Design of Community Water Supply Schemes for Flood Affected Areas of DG Khan Division.",
+    location: "Saudi Arabia",
+    desc: "Design of Water Supply, Sewerage and Drainage system for Neom Trojena Base Camp, Saudi Arabia.",
     image: null,
   },
   {
-    title: "DG Khan & Muzaffargarh Water Supply",
+    title: "Water Supply, Sewerage & Drainage — Kingdom Valley, Chakri",
     category: "Completed",
     type: "Water Supply",
-    location: "DG Khan & Muzaffargarh",
-    desc: "Design of water supply schemes for DG Khan and Muzaffargarh Districts.",
+    location: "Chakri",
+    desc: "Design of Water Supply, Sewerage, Drainage and Roads for Kingdom Valley, Chakri.",
     image: null,
   },
   {
-    title: "Pakpattan District Water Supply",
+    title: "Water Supply & Sewerage — Safiya Homes, Lahore",
     category: "Completed",
     type: "Water Supply",
-    location: "Pakpattan",
-    desc: "Design of water supply schemes for Pakpattan District.",
+    location: "Lahore",
+    desc: "Design of Water Supply and Sewerage system for Safiya Homes, Lahore.",
     image: null,
   },
   {
-    title: "PWP-III Rawalpindi District Water Supply",
+    title: "Water Supply, Sewerage & Roads — Imperial Residencia, Kasur",
     category: "Completed",
     type: "Water Supply",
-    location: "Rawalpindi District",
-    desc: "Design of Community Water Supply Schemes in Tehsil Kahuta, Murree, Gujar Khan, Kotli Sattian and Rawalpindi Sadar.",
+    location: "Kasur",
+    desc: "Design of Water Supply, Sewerage, Drainage and Roads for Imperial Residencia, Kasur.",
+    image: null,
+  },
+  {
+    title: "Water Supply & Sewerage — Mansoora Homes, Lahore",
+    category: "Completed",
+    type: "Water Supply",
+    location: "Lahore",
+    desc: "Design of Water Supply and Sewerage system for Mansoora Homes, Lahore.",
+    image: null,
+  },
+  {
+    title: "Water Supply & Sewerage — Housing Scheme, Rawalpindi",
+    category: "Completed",
+    type: "Water Supply",
+    location: "Rawalpindi",
+    desc: "Design of Water Supply and Sewerage system for Housing Scheme at Rawalpindi.",
     image: null,
   },
   {
