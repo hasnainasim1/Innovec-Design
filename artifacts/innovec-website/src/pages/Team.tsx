@@ -23,6 +23,18 @@ const team = [
     bio: "Distinguished fisheries scientist with over three decades of service to the Government of Punjab. M.Sc. Zoology and Certificate in Aquaculture from University of Stirling, Scotland. Retired Director of Fisheries in 2005.",
   },
   {
+    name: "Dr. Razi Iqbal",
+    role: "Senior IT Consultant",
+    image: "/razi-iqbal.png",
+    bio: "Ph.D. in Computer Science, Senior Member of IEEE, and accomplished researcher in AI Efficiency and TinyAI. Certified NVIDIA Instructor and Azure Data Scientist with extensive experience in Deep Learning, Neural Network Compression, and AI implementation. Brings strong academic and practical expertise in modern technology solutions.",
+  },
+  {
+    name: "Ali Iqbal",
+    role: "Senior IT Consultant",
+    image: "/ali-iqbal.png",
+    bio: "Seasoned Project Management and IT Consultant with over 10 years of international experience. Holds PMP®, CSM®, CSPO®, MBA, and MSPM certifications. Expertise includes Agile project delivery, stakeholder management, team productivity enhancement, and emerging technologies including Blockchain.",
+  },
+  {
     name: "Engr. Sajjad Ahmad",
     role: "Senior Civil Engineer",
     image: null,
