@@ -7,6 +7,14 @@ type Category = "All" | "Ongoing" | "Completed" | "Fisheries";
 const projects = [
   // FISHERIES FIRST
   {
+    title: "Upgradation of Punjab Government Trout Hatchery — Masoot, Murree",
+    category: "Fisheries",
+    type: "Fisheries & Aquaculture",
+    location: "Masoot, Murree",
+    desc: "Upgradation and Transformation of Punjab Government Trout Hatchery, Masoot Murree. Client: Fisheries and Aquaculture Department. Consultant: DSV. Sub-Consultant: INNOVEC (Private) Limited.",
+    image: "https://loremflickr.com/600/400/fish,aquaculture,pond?lock=201",
+  },
+  {
     title: "Fisheries & Aquaculture Infrastructure — AkuaMaks Partnership",
     category: "Fisheries",
     type: "Aquaculture",
@@ -17,14 +25,6 @@ const projects = [
     partnerLogo: "/akuamaks.png",
     partnerUrl: "www.akuamaks.com",
     image: "/akuamaks.png",
-  },
-  {
-    title: "Upgradation of Punjab Government Trout Hatchery — Masoot, Murree",
-    category: "Fisheries",
-    type: "Fisheries & Aquaculture",
-    location: "Masoot, Murree",
-    desc: "Upgradation and Transformation of Punjab Government Trout Hatchery, Masoot Murree. Client: Fisheries and Aquaculture Department. Consultant: DSV. Sub-Consultant: INNOVEC (Private) Limited.",
-    image: "https://loremflickr.com/600/400/fish,aquaculture,pond?lock=201",
   },
   // ONGOING
   {
@@ -105,7 +105,7 @@ const projects = [
     location: "Pakistan",
     desc: "Designing and Detailed Construction Supervision for establishment of Medical Cannabis Greenhouse, Biotechnology Derived Bio-Products, National Hemp and Cannabis Analytical Laboratory and National Hemp and Medicinal Cannabis Authority. Client: PCSIR.",
     completedYear: "January 2026",
-    image: "https://loremflickr.com/600/400/greenhouse,laboratory,facility?lock=109",
+    image: "https://loremflickr.com/600/400/construction,civil,engineering,site?lock=109",
   },
 
   // COMPLETED — WATER SUPPLY & SEWERAGE SCHEMES
@@ -147,7 +147,7 @@ const projects = [
     type: "Water Supply",
     location: "Lahore",
     desc: "Design of Water Supply and Sewerage system for Mansoora Homes, Lahore.",
-    image: "https://loremflickr.com/600/400/water,pipeline,civil,engineering?lock=114",
+    image: "https://loremflickr.com/600/400/civil,engineering,construction,pipe?lock=114",
   },
   {
     title: "Water Supply & Sewerage — Housing Scheme, Rawalpindi",
@@ -155,7 +155,7 @@ const projects = [
     type: "Water Supply",
     location: "Rawalpindi",
     desc: "Design of Water Supply and Sewerage system for Housing Scheme at Rawalpindi.",
-    image: "https://loremflickr.com/600/400/pipeline,water,civil?lock=115",
+    image: "https://loremflickr.com/600/400/engineering,construction,building,site?lock=115",
   },
 ];
 
