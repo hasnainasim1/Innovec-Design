@@ -12,7 +12,7 @@ const projects = [
     type: "Fisheries & Aquaculture",
     location: "Masoot, Murree",
     desc: "Upgradation and Transformation of Punjab Government Trout Hatchery, Masoot Murree. Client: Fisheries and Aquaculture Department. Consultant: DSV. Sub-Consultant: INNOVEC (Private) Limited.",
-    image: "https://loremflickr.com/600/400/fish,aquaculture,pond?lock=201",
+    image: "https://loremflickr.com/600/400/construction?lock=301",
   },
   {
     title: "Fisheries & Aquaculture Infrastructure — AkuaMaks Partnership",
@@ -33,7 +33,7 @@ const projects = [
     type: "Water & Utilities",
     location: "Riyadh, KSA",
     desc: "Design of Water Supply, Sewerage, Drainage, Irrigation and Fire Fighting System.",
-    image: "https://loremflickr.com/600/400/water,infrastructure?lock=101",
+    image: "https://loremflickr.com/600/400/construction?lock=302",
   },
   {
     title: "Chillas City Sewerage System",
@@ -41,7 +41,7 @@ const projects = [
     type: "Sewerage",
     location: "Chillas City",
     desc: "Comprehensive design of urban sewerage network for Chillas City.",
-    image: "https://loremflickr.com/600/400/sewage,pipeline?lock=102",
+    image: "https://loremflickr.com/600/400/construction?lock=303",
   },
   {
     title: "Fort Munro Water Supply",
@@ -49,7 +49,7 @@ const projects = [
     type: "Water Supply",
     location: "DG Khan",
     desc: "Design of Water Supply System for the Fort Munro hill station.",
-    image: "https://loremflickr.com/600/400/water,pipe,civil,engineering?lock=103",
+    image: "https://loremflickr.com/600/400/construction?lock=304",
   },
 
   // COMPLETED PROJECTS
@@ -60,7 +60,7 @@ const projects = [
     location: "Multan Division",
     desc: "Engineering Design and Construction Supervision Services for the Misali Gaon (Model Village) Project. Client: TUMAS.",
     completedYear: "March 2026",
-    image: "https://loremflickr.com/600/400/construction,civil,infrastructure?lock=104",
+    image: "https://loremflickr.com/600/400/construction?lock=305",
   },
   {
     title: "Design of Water Supply & Drainage System - Safiya Homes Multan",
@@ -69,7 +69,7 @@ const projects = [
     location: "Multan",
     desc: "Design of Water Supply, OHT, Sewerage & Drainage Systems and Disposal Station. Client: Safiya Homes Private Limited.",
     completedYear: "2026",
-    image: "https://loremflickr.com/600/400/water,drainage,civil,pipe?lock=105",
+    image: "https://loremflickr.com/600/400/construction?lock=306",
   },
   {
     title: "Design of Water Supply & Drainage System - Safiya Homes Kasur",
@@ -78,7 +78,7 @@ const projects = [
     location: "Kasur",
     desc: "Design of Water Supply, OHT, Road Network, Sewerage & Drainage Systems and Disposal Station. Client: Safiya Homes Private Limited.",
     completedYear: "2025",
-    image: "https://loremflickr.com/600/400/road,infrastructure,construction?lock=106",
+    image: "https://loremflickr.com/600/400/construction?lock=307",
   },
   {
     title: "PTV Headquarters — Repair & Renovation",
@@ -87,7 +87,7 @@ const projects = [
     location: "Islamabad",
     desc: "Repair, Renovation and Upgradation Works at PTV Headquarters, Islamabad. Client: Pakistan Television Corporation.",
     completedYear: "February 2026",
-    image: "https://loremflickr.com/600/400/building,renovation,construction?lock=107",
+    image: "https://loremflickr.com/600/400/construction?lock=308",
   },
   {
     title: "PTV Regional Office — Repair & Renovation",
@@ -96,7 +96,7 @@ const projects = [
     location: "Quetta",
     desc: "Repair, Renovation and Upgradation Works at PTV Regional Office, Quetta. Client: Pakistan Television Corporation.",
     completedYear: "February 2026",
-    image: "https://loremflickr.com/600/400/office,building,renovation?lock=108",
+    image: "https://loremflickr.com/600/400/construction?lock=309",
   },
   {
     title: "Medical Cannabis & Hemp Facilities — PSDP Project",
@@ -105,7 +105,7 @@ const projects = [
     location: "Pakistan",
     desc: "Designing and Detailed Construction Supervision for establishment of Medical Cannabis Greenhouse, Biotechnology Derived Bio-Products, National Hemp and Cannabis Analytical Laboratory and National Hemp and Medicinal Cannabis Authority. Client: PCSIR.",
     completedYear: "January 2026",
-    image: "https://loremflickr.com/600/400/construction,civil,engineering,site?lock=109",
+    image: "https://loremflickr.com/600/400/construction?lock=310",
   },
 
   // COMPLETED — WATER SUPPLY & SEWERAGE SCHEMES
@@ -115,7 +115,7 @@ const projects = [
     type: "Water Supply",
     location: "Saudi Arabia",
     desc: "Design of Water Supply, Sewerage and Drainage system for Neom Trojena Base Camp, Saudi Arabia.",
-    image: "https://loremflickr.com/600/400/water,treatment,plant?lock=110",
+    image: "https://loremflickr.com/600/400/construction?lock=311",
   },
   {
     title: "Water Supply, Sewerage & Drainage — Kingdom Valley, Chakri",
@@ -123,7 +123,7 @@ const projects = [
     type: "Water Supply",
     location: "Chakri",
     desc: "Design of Water Supply, Sewerage, Drainage and Roads for Kingdom Valley, Chakri.",
-    image: "https://loremflickr.com/600/400/water,pipe,infrastructure?lock=111",
+    image: "https://loremflickr.com/600/400/construction?lock=312",
   },
   {
     title: "Design of Water Supply & Drainage System - Safiya Homes Lahore",
@@ -131,7 +131,7 @@ const projects = [
     type: "Water Supply",
     location: "Lahore",
     desc: "Design of Water Supply and Sewerage system for Safiya Homes, Lahore.",
-    image: "https://loremflickr.com/600/400/sewage,water,system?lock=112",
+    image: "https://loremflickr.com/600/400/construction?lock=313",
   },
   {
     title: "Water Supply, Sewerage & Roads — Imperial Residencia, Kasur",
@@ -139,7 +139,7 @@ const projects = [
     type: "Water Supply",
     location: "Kasur",
     desc: "Design of Water Supply, Sewerage, Drainage and Roads for Imperial Residencia, Kasur.",
-    image: "https://loremflickr.com/600/400/water,supply,pump?lock=113",
+    image: "https://loremflickr.com/600/400/construction?lock=314",
   },
   {
     title: "Design of Water Supply & Drainage System - Mansoor Homes, Lahore",
@@ -147,7 +147,7 @@ const projects = [
     type: "Water Supply",
     location: "Lahore",
     desc: "Design of Water Supply and Sewerage system for Mansoora Homes, Lahore.",
-    image: "https://loremflickr.com/600/400/civil,engineering,construction,pipe?lock=114",
+    image: "https://loremflickr.com/600/400/construction?lock=315",
   },
   {
     title: "Water Supply & Sewerage — Housing Scheme, Rawalpindi",
@@ -155,7 +155,7 @@ const projects = [
     type: "Water Supply",
     location: "Rawalpindi",
     desc: "Design of Water Supply and Sewerage system for Housing Scheme at Rawalpindi.",
-    image: "https://loremflickr.com/600/400/engineering,construction,building,site?lock=115",
+    image: "https://loremflickr.com/600/400/construction?lock=316",
   },
 ];
 
