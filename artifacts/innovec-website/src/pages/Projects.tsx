@@ -18,6 +18,14 @@ const projects = [
     partnerUrl: "www.akuamaks.com",
     image: "/akuamaks.png",
   },
+  {
+    title: "Upgradation of Punjab Government Trout Hatchery — Masoot, Murree",
+    category: "Fisheries",
+    type: "Fisheries & Aquaculture",
+    location: "Masoot, Murree",
+    desc: "Upgradation and Transformation of Punjab Government Trout Hatchery, Masoot Murree. Client: Fisheries and Aquaculture Department. Consultant: DSV. Sub-Consultant: INNOVEC (Private) Limited.",
+    image: "https://loremflickr.com/600/400/fish,aquaculture,pond?lock=201",
+  },
   // ONGOING
   {
     title: "Presidency of State Security, Kingdom of Saudi Arabia",
