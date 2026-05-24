@@ -25,7 +25,7 @@ const projects = [
     type: "Water & Utilities",
     location: "Riyadh, KSA",
     desc: "Design of Water Supply, Sewerage, Drainage, Irrigation and Fire Fighting System.",
-    image: "https://picsum.photos/seed/riyadh-ksa/600/400",
+    image: "https://loremflickr.com/600/400/water,infrastructure?lock=101",
   },
   {
     title: "Chillas City Sewerage System",
@@ -33,7 +33,7 @@ const projects = [
     type: "Sewerage",
     location: "Chillas City",
     desc: "Comprehensive design of urban sewerage network for Chillas City.",
-    image: "https://picsum.photos/seed/chillas-sewerage/600/400",
+    image: "https://loremflickr.com/600/400/sewage,pipeline?lock=102",
   },
   {
     title: "Fort Munro Water Supply",
@@ -41,7 +41,7 @@ const projects = [
     type: "Water Supply",
     location: "DG Khan",
     desc: "Design of Water Supply System for the Fort Munro hill station.",
-    image: "https://picsum.photos/seed/fort-munro/600/400",
+    image: "https://loremflickr.com/600/400/water,supply,tank?lock=103",
   },
 
   // COMPLETED PROJECTS
@@ -52,7 +52,7 @@ const projects = [
     location: "Multan Division",
     desc: "Engineering Design and Construction Supervision Services for the Misali Gaon (Model Village) Project. Client: TUMAS.",
     completedYear: "March 2026",
-    image: "https://picsum.photos/seed/misali-gaon-multan/600/400",
+    image: "https://loremflickr.com/600/400/civil,engineering,construction?lock=104",
   },
   {
     title: "Design & Drainage System for Safiya Homes Multan",
@@ -61,7 +61,7 @@ const projects = [
     location: "Multan",
     desc: "Design of Water Supply, OHT, Sewerage & Drainage Systems and Disposal Station. Client: Safiya Homes Private Limited.",
     completedYear: "2026",
-    image: "https://picsum.photos/seed/safiya-homes-multan/600/400",
+    image: "https://loremflickr.com/600/400/drainage,water,pipe?lock=105",
   },
   {
     title: "Design of Water Supply & Road Network for Safiya Homes Kasur",
@@ -70,7 +70,7 @@ const projects = [
     location: "Kasur",
     desc: "Design of Water Supply, OHT, Road Network, Sewerage & Drainage Systems and Disposal Station. Client: Safiya Homes Private Limited.",
     completedYear: "2025",
-    image: "https://picsum.photos/seed/safiya-homes-kasur/600/400",
+    image: "https://loremflickr.com/600/400/road,infrastructure,construction?lock=106",
   },
   {
     title: "PTV Headquarters — Repair & Renovation",
@@ -79,7 +79,7 @@ const projects = [
     location: "Islamabad",
     desc: "Repair, Renovation and Upgradation Works at PTV Headquarters, Islamabad. Client: Pakistan Television Corporation.",
     completedYear: "February 2026",
-    image: "https://picsum.photos/seed/ptv-headquarters-islamabad/600/400",
+    image: "https://loremflickr.com/600/400/building,renovation,construction?lock=107",
   },
   {
     title: "PTV Regional Office — Repair & Renovation",
@@ -88,7 +88,7 @@ const projects = [
     location: "Quetta",
     desc: "Repair, Renovation and Upgradation Works at PTV Regional Office, Quetta. Client: Pakistan Television Corporation.",
     completedYear: "February 2026",
-    image: "https://picsum.photos/seed/ptv-regional-quetta/600/400",
+    image: "https://loremflickr.com/600/400/office,building,renovation?lock=108",
   },
   {
     title: "Medical Cannabis & Hemp Facilities — PSDP Project",
@@ -97,7 +97,7 @@ const projects = [
     location: "Pakistan",
     desc: "Designing and Detailed Construction Supervision for establishment of Medical Cannabis Greenhouse, Biotechnology Derived Bio-Products, National Hemp and Cannabis Analytical Laboratory and National Hemp and Medicinal Cannabis Authority. Client: PCSIR.",
     completedYear: "January 2026",
-    image: "https://picsum.photos/seed/pcsir-cannabis-greenhouse/600/400",
+    image: "https://loremflickr.com/600/400/greenhouse,laboratory,facility?lock=109",
   },
 
   // COMPLETED — WATER SUPPLY & SEWERAGE SCHEMES
@@ -107,7 +107,7 @@ const projects = [
     type: "Water Supply",
     location: "Saudi Arabia",
     desc: "Design of Water Supply, Sewerage and Drainage system for Neom Trojena Base Camp, Saudi Arabia.",
-    image: "https://picsum.photos/seed/neom-trojena-saudi/600/400",
+    image: "https://loremflickr.com/600/400/water,treatment,plant?lock=110",
   },
   {
     title: "Water Supply, Sewerage & Drainage — Kingdom Valley, Chakri",
@@ -115,7 +115,7 @@ const projects = [
     type: "Water Supply",
     location: "Chakri",
     desc: "Design of Water Supply, Sewerage, Drainage and Roads for Kingdom Valley, Chakri.",
-    image: "https://picsum.photos/seed/kingdom-valley-chakri/600/400",
+    image: "https://loremflickr.com/600/400/water,pipe,infrastructure?lock=111",
   },
   {
     title: "Water Supply & Sewerage — Safiya Homes, Lahore",
@@ -123,7 +123,7 @@ const projects = [
     type: "Water Supply",
     location: "Lahore",
     desc: "Design of Water Supply and Sewerage system for Safiya Homes, Lahore.",
-    image: "https://picsum.photos/seed/safiya-homes-lahore/600/400",
+    image: "https://loremflickr.com/600/400/sewage,water,system?lock=112",
   },
   {
     title: "Water Supply, Sewerage & Roads — Imperial Residencia, Kasur",
@@ -131,7 +131,7 @@ const projects = [
     type: "Water Supply",
     location: "Kasur",
     desc: "Design of Water Supply, Sewerage, Drainage and Roads for Imperial Residencia, Kasur.",
-    image: "https://picsum.photos/seed/imperial-residencia-kasur/600/400",
+    image: "https://loremflickr.com/600/400/water,supply,pump?lock=113",
   },
   {
     title: "Water Supply & Sewerage — Mansoora Homes, Lahore",
@@ -139,7 +139,7 @@ const projects = [
     type: "Water Supply",
     location: "Lahore",
     desc: "Design of Water Supply and Sewerage system for Mansoora Homes, Lahore.",
-    image: "https://picsum.photos/seed/mansoora-homes-lahore/600/400",
+    image: "https://loremflickr.com/600/400/water,tank,overhead?lock=114",
   },
   {
     title: "Water Supply & Sewerage — Housing Scheme, Rawalpindi",
@@ -147,7 +147,7 @@ const projects = [
     type: "Water Supply",
     location: "Rawalpindi",
     desc: "Design of Water Supply and Sewerage system for Housing Scheme at Rawalpindi.",
-    image: "https://picsum.photos/seed/housing-scheme-rawalpindi/600/400",
+    image: "https://loremflickr.com/600/400/pipeline,water,civil?lock=115",
   },
   {
     title: "PWP-III District Okara Water Supply",
@@ -155,7 +155,7 @@ const projects = [
     type: "Water Supply",
     location: "Okara",
     desc: "Design of water supply schemes for District Okara under PWP-III Programme.",
-    image: "https://picsum.photos/seed/pwp-okara-water/600/400",
+    image: "https://loremflickr.com/600/400/water,pump,station?lock=116",
   },
   {
     title: "PWP-III Khanewal, Lodhran & Vehari Water Supply",
@@ -163,7 +163,7 @@ const projects = [
     type: "Water Supply",
     location: "Khanewal, Lodhran, Vehari",
     desc: "Community Water Supply Schemes for Districts Khanewal, Lodhran, and Vehari.",
-    image: "https://picsum.photos/seed/pwp-khanewal-lodhran/600/400",
+    image: "https://loremflickr.com/600/400/water,community,supply?lock=117",
   },
   {
     title: "PWP-III South Punjab Water Supply",
@@ -171,7 +171,7 @@ const projects = [
     type: "Water Supply",
     location: "Bahawalpur, Bahawalnagar, Rahim Yar Khan",
     desc: "Design of water supply schemes for South Punjab Districts under PWP-III Programme.",
-    image: "https://picsum.photos/seed/pwp-south-punjab/600/400",
+    image: "https://loremflickr.com/600/400/water,distribution,rural?lock=118",
   },
   {
     title: "PWP-III Jhelum District Water Supply",
@@ -179,7 +179,7 @@ const projects = [
     type: "Water Supply",
     location: "Jhelum",
     desc: "Community Water Supply Schemes for Tehsil Pind Dadan Khan and Khewra, District Jhelum.",
-    image: "https://picsum.photos/seed/pwp-jhelum-water/600/400",
+    image: "https://loremflickr.com/600/400/water,pipe,supply?lock=119",
   },
   {
     title: "PWP-III District Attock Water Supply",
@@ -187,7 +187,7 @@ const projects = [
     type: "Water Supply",
     location: "Attock",
     desc: "Community Water Supply Schemes for 4 Tehsils of District Attock.",
-    image: "https://picsum.photos/seed/pwp-attock-water/600/400",
+    image: "https://loremflickr.com/600/400/water,infrastructure,scheme?lock=120",
   },
   {
     title: "PWP-III District Chakwal Water Supply",
@@ -195,7 +195,7 @@ const projects = [
     type: "Water Supply",
     location: "Chakwal",
     desc: "Community Water Supply Schemes for District Chakwal under PWP-III Programme.",
-    image: "https://picsum.photos/seed/pwp-chakwal-water/600/400",
+    image: "https://loremflickr.com/600/400/water,engineering,civil?lock=121",
   },
 
   // COMPLETED — WASTEWATER
@@ -205,7 +205,7 @@ const projects = [
     type: "Wastewater",
     location: "Khanewal District",
     desc: "Design of Waste Water Treatment Plants (12 nos.) for Khanewal District.",
-    image: "https://picsum.photos/seed/wwtp-khanewal/600/400",
+    image: "https://loremflickr.com/600/400/wastewater,treatment,plant?lock=122",
   },
   {
     title: "DG Khan District WWTPs",
@@ -213,7 +213,7 @@ const projects = [
     type: "Wastewater",
     location: "DG Khan",
     desc: "Design of Waste Water Treatment Plants (6 nos.) for DG Khan District.",
-    image: "https://picsum.photos/seed/wwtp-dgkhan/600/400",
+    image: "https://loremflickr.com/600/400/sewage,treatment,facility?lock=123",
   },
   {
     title: "Muzaffargarh District WWTPs",
@@ -221,7 +221,7 @@ const projects = [
     type: "Wastewater",
     location: "Muzaffargarh",
     desc: "Design of Waste Water Treatment Plants (9 nos.) for Muzaffargarh District.",
-    image: "https://picsum.photos/seed/wwtp-muzaffargarh/600/400",
+    image: "https://loremflickr.com/600/400/water,treatment,industrial?lock=124",
   },
   {
     title: "Pakpattan District WWTPs",
@@ -229,7 +229,7 @@ const projects = [
     type: "Wastewater",
     location: "Pakpattan",
     desc: "Design of Waste Water Treatment Plants (6 nos.) for Pakpattan District.",
-    image: "https://picsum.photos/seed/wwtp-pakpattan/600/400",
+    image: "https://loremflickr.com/600/400/wastewater,plant,engineering?lock=125",
   },
 
   // COMPLETED — OTHER
@@ -239,7 +239,7 @@ const projects = [
     type: "Plumbing",
     location: "Kasur",
     desc: "Internal Plumbing design for industrial facility at Chunian, Kasur.",
-    image: "https://picsum.photos/seed/nishat-chunian-industrial/600/400",
+    image: "https://loremflickr.com/600/400/industrial,plumbing,pipe?lock=126",
   },
   {
     title: "Abid Trading, DHA Lahore",
@@ -247,7 +247,7 @@ const projects = [
     type: "Plumbing",
     location: "Lahore",
     desc: "Internal Plumbing of commercial premises in DHA, Lahore.",
-    image: "https://picsum.photos/seed/abid-trading-dha/600/400",
+    image: "https://loremflickr.com/600/400/plumbing,commercial,building?lock=127",
   },
   {
     title: "Millat Track Housing Scheme",
@@ -255,7 +255,7 @@ const projects = [
     type: "Plumbing",
     location: "Sheikhupura Road, Lahore",
     desc: "Internal plumbing of 150 residential units at Millat Track Housing Scheme.",
-    image: "https://picsum.photos/seed/millat-track-housing/600/400",
+    image: "https://loremflickr.com/600/400/residential,construction,housing?lock=128",
   },
   {
     title: "PRMSC Residential Houses",
@@ -263,7 +263,7 @@ const projects = [
     type: "Structural",
     location: "Various",
     desc: "Structural Design of 600 Residential Houses for PRMSC.",
-    image: "https://picsum.photos/seed/prmsc-residential/600/400",
+    image: "https://loremflickr.com/600/400/structural,engineering,concrete?lock=129",
   },
   {
     title: "LESCO Revenue Offices",
@@ -271,7 +271,7 @@ const projects = [
     type: "Architectural",
     location: "Lahore",
     desc: "Architectural Design of Revenue Offices of Lahore Electric Supply Company (LESCO).",
-    image: "https://picsum.photos/seed/lesco-offices-lahore/600/400",
+    image: "https://loremflickr.com/600/400/architecture,office,design?lock=130",
   },
 ];
 
